@@ -1,0 +1,82 @@
+.body {
+    background-color: blue;
+    align-items: center;
+    margin-top: 25px;
+}
+.container {
+    display: grid;
+    grid-template-columns: 0.5fr 3fr 0.5fr;
+    grid-template-rows: 0.5fr 1.5fr 1fr 1.5fr 1fr 1.5fr 0.5fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "logo"
+        ". top ."
+        ". toptext ."
+        ". card1 ."
+        ". midtex ."
+        ". card2 ."
+        ". btmbar .";
+}
+
+.logo {
+
+    justify-content: center;
+    align-items: center;
+    display: flex;
+    grid-area: logo;
+    background-color: white;
+    border: 500px;
+}
+
+.top {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    grid-template-rows: 1fr 1fr 1fr;
+    gap: 0px 0px;
+    grid-auto-flow: row;
+    grid-template-areas:
+        "titlecard titlecard icon123"
+        "titlecard titlecard icon456"
+        "titlecard titlecard icon789";
+    grid-area: top;
+}
+
+.titlecard {
+    grid-area: titlecard;
+
+}
+
+.h5 {float: left;}
+
+.icon123 {
+    grid-area: icon123;
+}
+
+.icon456 {
+    grid-area: icon456;
+}
+
+.icon789 {
+    grid-area: icon789;
+}
+
+.toptext {
+    grid-area: toptext;
+}
+
+.card1 {
+    grid-area: card1;
+}
+
+.midtex {
+    grid-area: midtex;
+}
+
+.card2 {
+    grid-area: card2;
+}
+
+.btmbar {
+    grid-area: btmbar;
+}
