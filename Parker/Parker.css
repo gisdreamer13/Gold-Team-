@@ -1,0 +1,80 @@
+ body {
+     margin: 0px;
+ }
+
+ h5 {
+     font-size: 50px;
+     margin-bottom: 20px;
+ }
+
+ p {
+     margin-left: 20px;
+     font-size: 15px;
+     font-weight: bold;
+ }
+
+ .container {
+     display: flex;
+     justify-content: space-between;
+     align-items: center;
+     padding: 20px;
+     margin-left: 250px;
+ }
+
+ .text-content {
+     flex: 1;
+     padding: 20px;
+ }
+
+ .card {
+     margin: 100px;
+
+ }
+
+ .signup-btn {
+     border-radius: 30px;
+     padding: 20px;
+     width: 50%;
+     color: white;
+     background-color: blue;
+     margin-left: 30px;
+ }
+
+ img#sample {
+     width: 900px;
+     height: 900px;
+     max-width: 100%;
+     margin-right: 200px;
+
+ }
+
+ .form-control {
+     width: 100%;
+     padding: 20px;
+     border: 1px solid #ccc;
+     border-radius: 40px;
+     margin-bottom: 30px;
+     margin-top: 30px;
+     margin-left: -70px;
+ }
+
+ .image-container {
+     margin-left: -100px;
+ }
+
+ .social {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    margin-top: 20px;
+    margin-left: -50px;
+ }
+ .social-icon {
+     width: 70px;
+     height: 70px;
+     border-radius: 50%;
+     border: 2px solid black;
+     margin-right: 20px;
+     padding:10px;
+ }
+ 
